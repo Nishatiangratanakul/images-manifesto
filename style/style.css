@@ -1,0 +1,41 @@
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center; 
+}
+
+#title {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 24pt;
+  margin-bottom: 2%;
+  margin-top: 5%;
+}
+
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-wrap: wrap;
+  margin: 20px; 
+}
+
+.food-item {
+  flex: 0 0 calc(20% - 20px); 
+  margin: 10px; 
+  text-align: center; 
+}
+
+img {
+  width: 100%; 
+  border-radius: 5px;
+}
+
+.review{
+  margin: 10px; 
+  width: 50vw;
+}
